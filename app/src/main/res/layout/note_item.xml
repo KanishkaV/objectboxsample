@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@color/material_on_primary_emphasis_medium"
+    android:backgroundTint="@color/material_on_primary_emphasis_medium"
+    android:elevation="5dp"
+    android:outlineProvider="background">
+
+    <TextView
+        android:id="@+id/noteIdTxtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif-black"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtDisplayName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif-black"
+        android:text="TextView"
+        android:textSize="20sp" />
+
+</RelativeLayout>
